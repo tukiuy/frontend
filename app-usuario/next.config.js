@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    output: "standalone",
     images: {
         domains: [
             'ibb.co','i.ibb.co', 'drive.google.com', 'distribuidorabebidas.com.uy', 'salus.com.uy', 'lh3.googleusercontent.com'
